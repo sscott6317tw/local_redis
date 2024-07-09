@@ -17,7 +17,7 @@ except ImportError:
     from tomli import loads as tomlLoads
 
 
-def _parse(data, raw=False):
+def _parse(data, raw=False):   
     """
     > 如果数据是有效的 JSON，则返回解析后的 JSON。
     > 如果数据是有效的 TOML，则返回解析的 TOML。
